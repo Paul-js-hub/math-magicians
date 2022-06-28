@@ -1,81 +1,69 @@
-.container {
-    max-width: 420px;
-    min-height: 96vh;
-    margin: 0 auto;
-}
-
 button {
-    font-size: 2rem;
-    cursor: pointer;
-    border: 0.5px solid;
+  font-size: 2rem;
+  cursor: pointer;
+  border: 0.5px solid;
 }
 
 .subgrid {
-    display: grid;
+  display: grid;
 }
 
 .operations button {
-    background-color: var(--orange);
-    width: 100px;
-    flex: 1 0 26%;
-}
-
-.array-btn button {
-    background-color: var(--lightgray);
-    width: 100px;
+  background-color: var(--orange);
+  width: 100px;
+  flex: 1 0 26%;
 }
 
 .container {
-    grid-template-areas:
-      "total total total total"
-      "digit digit digit operand"
-      "digit digit digit operand"
-      "digit digit digit operand"
-      "digit digit digit operand"
-      "digit digit digit operand";
-    grid-auto-columns: 1fr;
-}
-
-.input {
-    grid-area: total;
-}
-
-.array-btn {
-    grid-area: digit;
+  grid-template-areas:
+    "total total total total"
+    "digit digit digit operand"
+    "digit digit digit operand"
+    "digit digit digit operand"
+    "digit digit digit operand"
+    "digit digit digit operand";
+  grid-auto-columns: 1fr;
+  max-width: 420px;
+  min-height: 96vh;
+  margin: 0 auto;
 }
 
 .operations {
-    grid-area: operand;
+  grid-area: operand;
 }
 
 .modif {
-    background-color: var(--lightgray);
-    width: 100px;
+  background-color: var(--lightgray);
+  width: 100px;
 }
 
 .input {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: 2rem;
-    background-color: var(--darkgray);
-  }
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 2rem;
+  background-color: var(--darkgray);
+  grid-area: total;
+}
 
-  .array-btn {
-    display: flex;
-    flex-wrap: wrap;
-  }
+.array-btn {
+  display: flex;
+  flex-wrap: wrap;
+  grid-area: digit;
+}
 
-  .modifiers {
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
-  }
+.modifiers {
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
 
-  .array-btn button {
-    flex: 1 0 26%;
-  }
+.array-btn button {
+  background-color: var(--lightgray);
+  width: 100px;
+  flex: 1 0 26%;
+}
 
-  .container,
+.container,
 .subgrid {
   display: grid;
 }

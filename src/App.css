@@ -1,8 +1,8 @@
 :root {
-  --white:#ffffff;
-  --darkgray:#858694;
-  --orange:#f5913e;
-  --lightgray:#e0e0e0;
+  --white: #fff;
+  --darkgray: #858694;
+  --orange: #f5913e;
+  --lightgray: #e0e0e0;
 }
 
 * {
