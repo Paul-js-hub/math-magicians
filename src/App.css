@@ -1,3 +1,12 @@
-h1 {
-  color: blue;
+:root {
+  --white:#ffffff;
+  --darkgray:#858694;
+  --orange:#f5913e;
+  --lightgray:#e0e0e0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
 }
