@@ -24,8 +24,8 @@ button {
     "digit digit digit operand";
   grid-auto-columns: 1fr;
   max-width: 420px;
-  min-height: 96vh;
-  margin: 0 auto;
+  min-height: 80vh;
+  margin: 8px auto;
 }
 
 .operations {

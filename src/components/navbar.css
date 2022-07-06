@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: var(--orange);
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+.logo {
+  font-size: 32px;
+}
+
+.menu li:hover {
+  background-color: #4c9e9e;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}

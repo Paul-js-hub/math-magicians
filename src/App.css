@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 :root {
   --white: #fff;
   --darkgray: #858694;
@@ -8,5 +10,9 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: var(--white);
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', cursive;
 }
