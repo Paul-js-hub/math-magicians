@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Calculator from './components/Calculator';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Quotes from './components/Quotes';
+import Calculator from './components/calculator/Calculator';
+import Navbar from './components/navbar/Navbar';
+import Home from './components/home/Home';
+import Quotes from './components/quotes/Quotes';
 import './App.css';
 
 const App = () => (
