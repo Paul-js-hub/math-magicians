@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it returns a calculator component 1`] = `
+<div
+  className="home"
+>
+  <h3
+    className="header3"
+  >
+    Welcome to Math Magicians
+  </h3>
+  <p
+    className="paragraph"
+  >
+    Math Magicians is a webpage that is designed to provide users with a fun way to interact with online calculator. It also generates random quotes about Mathematics
+  </p>
+</div>
+`;
