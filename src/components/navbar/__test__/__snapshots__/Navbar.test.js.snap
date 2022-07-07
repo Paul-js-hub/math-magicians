@@ -10,28 +10,38 @@ exports[`Test of navbar test if the navbar is rendered 1`] = `
     >
       Math Magicians
     </div>
-    <div
-      className="menu"
+    <ul
+      className="nav-links"
     >
-      <a
-        href="#/"
-        onClick={[Function]}
+      <div
+        className="menu"
       >
-        Home
-      </a>
-      <a
-        href="#/calculator"
-        onClick={[Function]}
-      >
-        Calculator
-      </a>
-      <a
-        href="#/quotes"
-        onClick={[Function]}
-      >
-        Quotes
-      </a>
-    </div>
+        <li>
+          <a
+            href="#/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="#/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a
+            href="#/quotes"
+            onClick={[Function]}
+          >
+            Quotes
+          </a>
+        </li>
+      </div>
+    </ul>
   </nav>
 </div>
 `;

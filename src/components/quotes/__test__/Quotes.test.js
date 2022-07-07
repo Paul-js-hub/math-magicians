@@ -1,6 +1,5 @@
-import { render, screen, fireEvent} from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import Quotes from '../Quotes.js';
+import Quotes from '../Quotes';
 
 test('it returns a calculator component', () => {
   const tree = renderer.create(<Quotes />).toJSON();

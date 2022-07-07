@@ -4,16 +4,16 @@ import './navbar.css';
 
 const Navbar = () => (
   <div>
-  <nav className="navbar">
-    <div className="logo">Math Magicians</div>
-    {/*<ul className="nav-links">*/}
-      <div className="menu">
-        <Link to="/">Home</Link>
-        <Link to="/calculator">Calculator</Link>
-        <Link to="/quotes">Quotes</Link>
-      </div>
-    {/*</ul>*/}
-  </nav>
+    <nav className="navbar">
+      <div className="logo">Math Magicians</div>
+      <ul className="nav-links">
+        <div className="menu">
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/calculator">Calculator</Link></li>
+          <li><Link to="/quotes">Quotes</Link></li>
+        </div>
+      </ul>
+    </nav>
   </div>
 );
 

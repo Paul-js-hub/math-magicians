@@ -1,4 +1,4 @@
-import { render, screen, fireEvent} from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import Calculator from '../Calculator';
 
@@ -9,7 +9,7 @@ test('it returns a calculator component', () => {
 
 test('it expects a particular button to be clicked', () => {
   const handleClick = jest.fn();
-  render(<button onClick={handleClick}>x</button>)
+  render(<button type="button" onClick={handleClick}>x</button>);
   fireEvent.click(screen.getByRole('button', { name: /x/i }));
   expect(handleClick).toHaveBeenCalledTimes(1);
 });
