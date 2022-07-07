@@ -1,0 +1,7 @@
+.quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 21px;
+  padding: 8px;
+}

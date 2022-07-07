@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it returns a calculator component 1`] = `
+<div
+  className="quotes"
+>
+  <p>
+    Without mathematics, there’s nothing you can do. Everything around you is mathematics. Everything around you is numbers. -Shakuntala Devi
+  </p>
+</div>
+`;
